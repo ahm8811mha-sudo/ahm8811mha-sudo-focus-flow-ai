@@ -21,7 +21,7 @@ import LocalFocusFlow from "./pages/LocalFocusFlow";
 function Router() {
   return (
     <Switch>
-      <Route path={"/"} component={LocalFocusFlow} />
+       <Route path={"/"} component={Home} />
       <Route path={"/home-3d"} component={Home3D} />
       <Route path={"/classic"} component={Home} />
       <Route path={"/tasks"}>
